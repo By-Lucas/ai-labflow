@@ -1,54 +1,69 @@
-# 🧠 PLN - Processamento de Linguagem Natural
 
-Este repositório contém exemplos práticos e educativos sobre **Processamento de Linguagem Natural (PLN)** com Python. A ideia é criar um acervo didático com vários temas de PLN e IA, para estudo, aplicação em projetos reais e inspiração para outros desenvolvedores e entusiastas.
+# 🧠 FORMAÇÃO IA 2025 — Centro de Inteligência Artificial e PLN
 
-## 🚀 Tecnologias utilizadas
+Este repositório faz parte do programa **Formação 2025 em Inteligência Artificial**, reunindo exemplos práticos, estudos de caso, códigos e soluções para aplicações modernas de IA. O objetivo é servir como base de conhecimento e inspiração para desenvolvedores, pesquisadores e entusiastas, explorando desde Processamento de Linguagem Natural (PLN) até sistemas de tomada de decisão autônoma, com tecnologias de ponta.
+
+## 🚀 Tecnologias previstas e frameworks integrados
 
 - Python 3.11+
 - Jupyter Notebooks
-- NLTK
-- LLMs
-- spaCy
-- Scikit-learn
-- OpenCV
-- Pandas / NumPy
-- Matplotlib / Seaborn (para visualizações)
-- FastAPI (futuramente, para servir modelos via API)
+- FastAPI (APIs inteligentes)
+- NLTK, spaCy (PLN)
+- Scikit-learn, PyTorch
+- Transformers (Hugging Face)
+- Pinecone (vector database para RAG)
+- LangChain (RAG e orquestração)
+- OpenAI / GPT / Claude
+- OpenCV (visão computacional)
+- Pandas, NumPy
+- Matplotlib, Seaborn (visualizações)
+- Gymnasium/OpenAI Gym (simulações)
+- APIs conversacionais e integrações CPI
+- Ferramentas para Agents (por exemplo, LangGraph)
+- Docker (ambientes replicáveis)
 
-## 📂 Organização do projeto
+## 🧩 Organização proposta
 
 ```
-FORMAÇÃO 2025/
+FORMAÇÃO_IA_2025/
 │
-├── .venv/                   # Ambiente virtual Python
-├── pln/                     # Módulo principal de PLN
-│   ├── example.ipynb        # Notebook de exemplo (NLTK, tokens, POS)
-│   ├── requirements.txt     # Dependências do projeto
-│   └── .gitignore           # Arquivos a ignorar no git
+├── pln/                        # Módulo de Processamento de Linguagem Natural
+│   ├── example_nltk.ipynb
+│   ├── requirements.txt
 │
-├── data/                    # (futuramente) arquivos de entrada e datasets
-├── models/                  # (futuramente) modelos treinados de NLP
-└── README.md                # Este arquivo
+├── Q-learning/                 # Módulo de Aprendizado por Reforço
+│   └── smart-taxi-rl-qlearning/
+│       ├── README.md
+│       ├── smart-taxi.ipynb
+│
+├── data/                       # Bases de dados (raw/processed)
+├── models/                     # Modelos treinados
+├── agents/                     # (futuro) agentes e RAG pipelines
+├── apis/                       # (futuro) endpoints FastAPI e CPI
+├── utils/                      # Funções utilitárias e scripts auxiliares
+└── README.md                   # Visão geral deste hub de formação
 ```
 
-## 📌 Exemplos de conteúdo (em progresso)
+## 📌 Exemplos previstos (roadmap)
 
-- [x] Tokenização, stopwords e POS tagging com NLTK
-- [ ] Reconhecimento de Entidades Nomeadas (NER)
-- [ ] Classificação de sentimentos (com Scikit-learn e BERT)
-- [ ] Geração de texto com LLMs (ex: GPT, BLOOM)
-- [ ] Reconhecimento de objetos
-- [ ] Análise de tópicos com LDA
-- [ ] Web API com FastAPI para servir modelos de NLP
+- ✅ Tokenização e análise linguística  
+- ✅ Agente de táxi inteligente (Q-Learning)  
+- ⏳ Reconhecimento de entidades nomeadas (spaCy)  
+- ⏳ Classificação de sentimentos (BERT)  
+- ⏳ Recuperação aumentada com Pinecone + LangChain  
+- ⏳ Criação de agentes de IA (LangGraph)  
+- ⏳ Web APIs inteligentes com FastAPI  
+- ⏳ Análise de tópicos (LDA)  
+- ⏳ Detecção de objetos (OpenCV)  
 
 ## 🎯 Objetivo
 
-Construir um repositório educacional que aborde desde conceitos básicos até aplicações avançadas de PLN, integrando também práticas de Machine Learning e IA generativa.
+**Capacitar e inspirar profissionais** na criação de soluções reais de Inteligência Artificial, combinando teoria e prática, do zero ao avançado — sempre com exemplos claros e documentação bem explicada.
 
 ## 🧾 Licença
 
-Este projeto é licenciado sob a **MIT License** - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Este projeto é distribuído sob **MIT License** — veja o arquivo [LICENSE](LICENSE).
 
 ---
 
-> 💡 Sinta-se à vontade para contribuir com notebooks, exemplos, correções ou sugestões!
+> 💡 **Sinta-se à vontade para contribuir** com exemplos, notebooks, melhorias ou sugestões. Vamos construir juntos a formação IA 2025!
